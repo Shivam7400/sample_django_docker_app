@@ -1,0 +1,5 @@
+# To Create Sample Django Application
+docker compose build
+docker-compose run --rm app django-admin startproject myproject . 
+docker-compose up
+docker exec -it <Container ID / Container Name> /bin/bash
